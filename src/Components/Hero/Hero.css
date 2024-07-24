@@ -1,0 +1,135 @@
+.hero{
+   /* border: 1px solid red;  */
+   padding: 50px 100px;
+   color: white;
+   background-color: var(--primary);
+}
+.heroCont{
+    display: flex;
+   align-items: center;
+position: relative;
+overflow-x: clip;
+   justify-content: space-between;
+   height: auto;
+   img{
+    width: 400px;
+  
+   }
+}
+
+.imgCont {
+overflow: hidden;
+
+    border-radius: 50% 0 50% 0;
+     border: 2px solid rgba(255, 255, 255, 0.289);
+
+   
+}
+
+.hero-left{
+   
+    /* border: 1px solid rgb(0, 255, 4); */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    
+
+    h1{
+        position: relative;
+        z-index: 1;
+        font-size: 3.4rem;
+    }
+
+    .circle{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: orange;
+        position: absolute;
+        right: 1000px;
+        top: 45px;
+        z-index: -1;
+    }
+
+    span{
+        font-size: 14px;
+    }
+
+}
+
+
+.hero-desc{
+    color: var(--textsecondaryondark);
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.search-bar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    /* border: 1px solid yellow; */
+}
+
+.stats{
+    display: flex;
+    /* border: 1px solid blue; */
+    gap: 1rem;
+    justify-content:space-around;
+}
+
+
+
+/* blur grad */
+.blurgrad{
+    width: 10rem;
+    height: 10rem;
+    background: rgba(255, 166, 0, 0.517);
+    border-radius: 30%;
+    position: absolute;
+    filter: blur(50px);
+    left: 30%;
+    top: 20%;
+}
+
+
+@media (min-width: 500px) and (max-width: 1136px){
+    .heroCont{
+        flex-direction: column;
+
+        img{
+            width: 300px;
+        }
+    }
+
+}
+
+@media (max-width:510px){
+
+.hero{
+padding: 0 16px;
+}    
+
+.search-bar{
+    flex-direction: column;
+    input{
+        width: 90%;
+    }
+    button{
+    width: 90%;
+    margin-bottom: 20px;
+    }
+}
+.hero-desc span{
+   text-align: center;
+    justify-content: center;
+}
+.heroCont{
+    flex-direction: column;
+
+align-items: center;
+}
+}

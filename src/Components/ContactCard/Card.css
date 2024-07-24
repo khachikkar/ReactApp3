@@ -1,0 +1,38 @@
+.card{
+border: 1px solid rgba(255, 255, 255, 0.325);
+border-radius: 10px;
+width: 250px;
+height: 100px;
+display: flex;
+flex-wrap: wrap;
+gap: 12px;
+padding: 16px;
+background-color: black;
+color: white;
+
+button{
+    width: 250px;
+}
+
+}
+
+.tt{
+    width: 200px;
+    /* border: 1px solid red; */
+
+    i{
+    font-size: 14px;
+    color: var(--secondary);
+    }
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}

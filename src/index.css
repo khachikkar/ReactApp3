@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+font-family: "Poppins";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:"Poppins";
+}
+
+:root{
+--primary: black;
+--secondary: #e3630d;
+--secondaryHover: #c35104;
+
+--textondark: white;
+--textsecondaryondark: rgba(255, 255, 255, 0.578);
+
+
+--minwidthButton: 100px
+}

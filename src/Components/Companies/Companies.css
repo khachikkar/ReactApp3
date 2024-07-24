@@ -1,0 +1,79 @@
+
+.comp-sec{
+background-color: var(--primary);
+color: var(--textondark);
+display: flex;
+flex-direction: column;
+
+}
+
+h1{
+    margin: 0;
+    align-self: center;
+}
+.company {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+   
+  }
+  
+  .comp {
+    animation: slide 10s linear infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .comp img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Additional styles to ensure continuous loop */
+  .company {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  .comp {
+    flex: 0 0 auto;
+    width: 25%; /* Adjust based on number of logos */
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .company::before,
+  .company::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .company::before {
+    left: -100%;
+    animation: slide 10s linear infinite;
+  }
+  
+  .company::after {
+    left: 0;
+    animation: slide 10s linear infinite;
+  }
+  

@@ -1,0 +1,19 @@
+.st-plus{
+    color: orange;
+    font-size: 2rem;
+}
+
+.st-text{
+    color: var(--textsecondaryondark);
+}
+
+.st-num{
+    font-size: 2rem;
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}

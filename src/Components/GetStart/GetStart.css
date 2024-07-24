@@ -1,0 +1,29 @@
+.get-started{
+    background-color: var(--secondary);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px 100px;
+h1{
+    padding: 0;
+}
+
+   button{
+    background-color: black;
+    width: 300px;
+
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+   } 
+}
+
+
+@media(max-width:500px){
+    .get-started{
+        padding: 32px 16px;
+    }
+}

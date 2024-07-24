@@ -1,0 +1,47 @@
+.App {
+  
+}
+
+.primaryButton{
+    color: var(--textondark);
+    background-color: var(--secondary);
+    padding: 0.5rem;
+    font-weight: 500;
+    height: 40px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    width: var(--minwidthButton);
+    transition: all 300ms ease-in-out;
+    &:hover{
+        background-color: var(--secondaryHover);
+        transform: scale(1.1);
+    }
+}
+
+.Input{
+    height: 40px;
+    width: 60%;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+
+.secbutton{
+    color: var(--textondark);
+    background-color: rgba(255, 255, 255, 0.013);
+    border: 0.5px solid white;
+    width: 50px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.118);
+    }
+    &:active {
+    background-color: rgba(255, 255, 255, 0.366);
+  }
+}
