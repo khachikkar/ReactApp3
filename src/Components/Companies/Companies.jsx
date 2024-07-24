@@ -1,5 +1,5 @@
 import "./Companies.css";
-import logo from "/Users/khachkarapetyan/Desktop/skills/src/img/logo.jpeg";
+import logo from "../../img/logo.svg"
 
 export default function Companies() {
   return (

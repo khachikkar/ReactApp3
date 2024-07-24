@@ -1,31 +1,47 @@
-import logo from "../../img/logo.svg"
-import "./Nav.css"
-import { Link } from "react-router-dom"
-
-
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import logo from "../../img/logo.svg";
+import "./Nav.css";
 
 export default function Nav() {
-    return (
-        <div className="navbar">
-            <div className="logo">
-                <Link to="/">
+  const [menuVisible, setMenuVisible] = useState(false);
 
-                <img className="logo" src={logo} alt="logo"  />
+  const toggleMenu = () => {
+    setMenuVisible(!menuVisible);
+  };
 
+  return (
+    <div className="navbar">
+      <div className="logo">
+        <Link to="/">
+          <img className="logo" src={logo} alt="logo" />
+        </Link>
+      </div>
+      <li id="little" onClick={toggleMenu}>
+        Menu
+      </li>
+      {menuVisible && (
+        <div className="menu-overlay">
+          <div className="menu-content">
+            <ul>
+              <li>Appartements</li>
+              <li>Contact Us</li>
+              <li onClick={toggleMenu}>
+                <Link className="lil" to="/src/Images">
+                  Images
                 </Link>
-            </div>
-            <li id="little" href="">Menu</li>
-            <div className="menu">
-                <ul>
-
-                <li>Appartements</li>
-                <li>Contact Us</li>
-                <li><Link className="lil" to="/src/Images">Images</Link></li>
-                <li><button className="primaryButton">Get Start</button></li>
-
-                </ul>
-            </div>
-            <button id="little-btn" className="primaryButton">Get Start</button>
+              </li>
+              <li>
+                <button className="primaryButton">Get Start</button>
+              </li>
+            </ul>
+            <button className="close-menu" onClick={toggleMenu}>Close</button>
+          </div>
         </div>
-    )
+      )}
+      <button id="little-btn" className="primaryButton">
+        Get Start
+      </button>
+    </div>
+  );
 }
