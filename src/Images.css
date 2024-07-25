@@ -38,7 +38,7 @@
 
 
 .i-results{
-    /* border: 1px solid yellow; */
+    border: 1px solid yellow;
     display: flex;
     flex-wrap: wrap;
     padding: 12px;
@@ -47,8 +47,8 @@
 }
 
 .i-img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 40px;
     border: 0.5px solid var(--textondark);
 }
