@@ -1,4 +1,21 @@
 .g-page{
     border: 1px solid red;
     height: 1000px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.g-add-img{
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+.aa{
+    background-color: var(--secondary);
+    width: 200px;
+    height: 200px;
 }
