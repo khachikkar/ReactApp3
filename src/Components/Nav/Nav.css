@@ -16,6 +16,8 @@ label{
   font-size: 12px; 
   color: white;
   border-radius: 10px;
+  position: absolute;
+  right: 14.8rem;
 }
 
   li, a {
