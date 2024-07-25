@@ -29,6 +29,12 @@ const shownavbar =()=>{
         <li onClick={shownavbar}>
           <Link to="/src/Images">Images</Link>
         </li>
+        <li onClick={shownavbar}>
+          <Link to="/src/Gift">
+          Gift
+          </Link>
+          <label>new</label>
+        </li>
         <li>
           <button className="primaryButton">Get Start</button>
         </li>

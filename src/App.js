@@ -10,6 +10,7 @@ import Contact from "./Components/Contact/Contact";
 import GetStarted from "./Components/GetStart/GetStart";
 import Footer from "./Footer/Footer";
 import Images from "./Images";// Correct path to Images
+import Gift from "./Gift";
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
             </>
           } />
           <Route path="/src/Images" element={<Images />} />
+          <Route path="/src/Gift" element={<Gift />} />
+
         </Routes>
         <Footer />
       </div>
