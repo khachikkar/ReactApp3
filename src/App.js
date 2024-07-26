@@ -30,7 +30,7 @@ function App() {
           } />
           <Route path="/src/Images" element={<Images />} />
           <Route path="/src/Gift" element={<Gift />} />
-
+          <Route path="/*" element={<ProductList />} />
         </Routes>
         <Footer />
       </div>

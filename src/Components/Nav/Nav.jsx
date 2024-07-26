@@ -19,7 +19,7 @@ const shownavbar =()=>{
     <div className="navbar">
       <div className="logo">
         <Link to="/">
-          <img className="logo" src={logo} alt="logo" />
+          <img  src={logo} alt="logo" />
         </Link>
       </div>
 
@@ -33,7 +33,7 @@ const shownavbar =()=>{
           <Link to="/src/Gift">
           Gift
           </Link>
-          <label>new</label>
+          {/* <label>new</label> */}
         </li>
         <li>
           <button className="primaryButton">Get Start</button>

@@ -1,9 +1,10 @@
 import "./ProductItem.css"
 
 
-export default function ProductItem({data}){
+export default function ProductItem({data, onClick}){
+    console.log(data)
     return(
-        <div className="product">
+        <div onClick={onClick} className="product">
             <img src={data.url} alt="prod-img" width={250} />
             <span><i>$</i>{data.price}</span>
             <h2>{data.title}</h2>
