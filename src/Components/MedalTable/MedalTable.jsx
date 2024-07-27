@@ -26,7 +26,7 @@ export default function MedalTable(){
 
 
         <h1>Medal Table</h1>
-        <h3>Next Update - 30.07.2024</h3>
+        <h3>Next Update - {medaldata.date}</h3>
         <Tableitem data ={initial} />
         {
             data.map((item)=> <Tableitem key={item.country} data={item}/>)
