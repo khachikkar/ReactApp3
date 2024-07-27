@@ -1,0 +1,50 @@
+{
+    "olympics": {
+      "name": "Paris 2024 Summer Olympics",
+      "logo_url": "https://colorlib.com/wp/wp-content/uploads/sites/2/olympic-logo-2024.png",
+      "parislo":"https://logos-world.net/wp-content/uploads/2023/09/Paris-2024-Logo.jpg",
+      "start_date": "2024/07/26  ",
+      "end_date": "  2024/08/11",
+      "location": "Paris, France",
+      "teams_count": 206,
+      "sports": [
+        "Archery",
+        "Athletics",
+        "Badminton",
+        "Basketball",
+        "Boxing",
+        "Canoeing",
+        "Cycling",
+        "Diving",
+        "Equestrian",
+        "Fencing",
+        "Field Hockey",
+        "Football",
+        "Golf",
+        "Gymnastics",
+        "Handball",
+        "Judo",
+        "Karate",
+        "Modern Pentathlon",
+        "Rowing",
+        "Rugby Sevens",
+        "Sailing",
+        "Shooting",
+        "Skateboarding",
+        "Sport Climbing",
+        "Surfing",
+        "Swimming",
+        "Table Tennis",
+        "Taekwondo",
+        "Tennis",
+        "Triathlon",
+        "Volleyball",
+        "Water Polo",
+        "Weightlifting",
+        "Wrestling"
+      ],
+      "events_count": 329
+     
+    }
+  }
+  

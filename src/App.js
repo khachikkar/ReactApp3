@@ -11,6 +11,7 @@ import GetStarted from "./Components/GetStart/GetStart";
 import Footer from "./Footer/Footer";
 import Images from "./Images";// Correct path to Images
 import Gift from "./Gift";
+import Paris from "./Paris";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <div className="App">
         <Nav />
         <Routes>
-          <Route path="/" element={
+          <Route path="*" element={
             <>
               <Hero />
               <Companies />
@@ -30,6 +31,8 @@ function App() {
           } />
           <Route path="/src/Images" element={<Images />} />
           <Route path="/src/Gift" element={<Gift />} />
+          <Route path="/src/Paris" element={<Paris />} />
+
           <Route path="/*" element={<ProductList />} />
         </Routes>
         <Footer />

@@ -3,23 +3,22 @@ import logo from "../../img/logo.svg";
 import "./Nav.css";
 import { IoClose } from "react-icons/io5";
 import { IoMenu } from "react-icons/io5";
-
+import { motion } from "framer-motion";
 
 import { useRef } from "react";
 
 export default function Nav() {
+  const navRef = useRef();
 
-const navRef = useRef()
-
-const shownavbar =()=>{
-  navRef.current.classList.toggle("responsive_nav")
-}
+  const shownavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
 
   return (
     <div className="navbar">
       <div className="logo">
         <Link to="/">
-          <img  src={logo} alt="logo" />
+          <img src={logo} alt="logo" />
         </Link>
       </div>
 
@@ -30,8 +29,12 @@ const shownavbar =()=>{
           <Link to="/src/Images">Images</Link>
         </li>
         <li onClick={shownavbar}>
-          <Link to="/src/Gift">
-          Gift
+          <Link to="/src/Gift">Gift</Link>
+          {/* <label>new</label> */}
+        </li>
+        <li onClick={shownavbar}>
+          <Link to="/src/Paris">
+            <span>Paris Olympics</span>
           </Link>
           {/* <label>new</label> */}
         </li>

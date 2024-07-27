@@ -2,11 +2,9 @@
     /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
-}
-.d-title{
-    /* border: 1px solid yellow; */
 
 }
+
 
 .d-img{
     width: 100%;

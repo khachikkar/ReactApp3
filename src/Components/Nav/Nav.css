@@ -92,6 +92,7 @@ ul {
   ul.responsive_nav {
     transform: translateY(0); /* Show the menu */
     /* border: 1px solid green; */
+
   }
 
   ul .close {

@@ -1,0 +1,76 @@
+.p-part{
+    margin-top: 80px;
+    background-color: white;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.date{
+    width: 400px;
+   
+
+
+}
+
+
+.flex{
+    display: flex;
+    padding: 4px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: center;
+   
+}
+
+.logos{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    img{
+        width: 200px;
+    }
+}
+
+.imgg{
+width: 100%;
+  background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/ap24208721279096-20240726203236508.jpg?c=16x9&q=h_833,w_1480,c_fill");
+    height: 800px;
+    background-size: cover; /* Ensure the image covers the div */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image within the div */
+   margin-top: 32px;
+
+}
+
+.location {
+width: 700px;
+justify-content: space-between;
+margin-top: 32px;
+span{
+    color: darkblue;
+   
+}
+}
+
+@media(max-width:600px){
+    .location{
+        flex-direction: column;
+        width: 400px;
+    }
+}
+
+.sport{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+
+    h3{
+    margin: 6px;
+    }
+}
+
+.smlogo{
+    width: 100px;
+}
