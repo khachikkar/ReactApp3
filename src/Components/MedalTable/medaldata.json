@@ -1,0 +1,119 @@
+{
+    "medals": [
+        {
+            "country": "ARMENIA",
+            "Gold": 0,
+            "Silver": 0,
+            "Bronze": 0
+          },
+      {
+        "country": "China",
+        "Gold": 2,
+        "Silver": 1,
+        "Bronze": 0
+      },
+      {
+        "country": "Belgium",
+        "Gold": 1,
+        "Silver": 0,
+        "Bronze": 1
+      },
+      {
+        "country": "Japan",
+        "Gold": 1,
+        "Silver": 0,
+        "Bronze": 1
+      },
+      {
+        "country": "Kazakhstan",
+        "Gold": 1,
+        "Silver": 0,
+        "Bronze": 1
+      },
+      {
+        "country": "Australia",
+        "Gold": 2,
+        "Silver": 1,
+        "Bronze": 0
+      },
+      {
+        "country": "France",
+        "Gold": 1,
+        "Silver": 1,
+        "Bronze": 1
+      },
+      {
+        "country": "UK",
+        "Gold": 0,
+        "Silver": 1,
+        "Bronze": 1
+      },
+      {
+        "country": "USA",
+        "Gold": 0,
+        "Silver": 1,
+        "Bronze": 2
+      },
+      {
+        "country": "South Korea",
+        "Gold": 0,
+        "Silver": 1,
+        "Bronze": 1
+      },
+      {
+        "country": "Mongolia",
+        "Gold": 0,
+        "Silver": 1,
+        "Bronze": 0
+      },
+      {
+        "country": "Spain",
+        "Gold": 0,
+        "Silver": 0,
+        "Bronze": 1
+      },
+      {
+        "country": "Germany",
+        "Gold": 1,
+        "Silver": 0,
+        "Bronze": 0
+      },
+      {
+        "country": "Canada",
+        "Gold": 0,
+        "Silver": 1,
+        "Bronze": 0
+      },
+      {
+        "country": "Fiji",
+        "Gold": 0,
+        "Silver": 1,
+        "Bronze": 0
+      },
+      {
+        "country": "Italy",
+        "Gold": 0,
+        "Silver": 1,
+        "Bronze": 0
+      },
+      {
+        "country": "Sweden",
+        "Gold": 0,
+        "Silver": 0,
+        "Bronze": 1
+      },
+      {
+        "country": "Hungary",
+        "Gold": 0,
+        "Silver": 1,
+        "Bronze": 0
+      }, 
+      {
+        "country": "South Africa",
+        "Gold": 0,
+        "Silver": 1,
+        "Bronze": 0
+      }
+    ]
+  }
+  

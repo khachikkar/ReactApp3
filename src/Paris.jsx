@@ -1,3 +1,4 @@
+import MedalTable from "./Components/MedalTable/MedalTable";
 import "./Paris.css";
 import pdata from "./Parisdata.json";
 import { motion } from "framer-motion";
@@ -43,6 +44,11 @@ export default function Paris() {
         src={parislo} 
         alt="" />
       </div>
+
+
+    <MedalTable />
+
+
 
       <div className="imgg"></div>
 
