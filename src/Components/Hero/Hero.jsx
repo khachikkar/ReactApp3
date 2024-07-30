@@ -26,7 +26,7 @@ export default memo(function Hero() {
 
             >
               Find Your <br />
-              Dream Home here!
+              Dream here!
             </motion.h1>
           </div>
           <div className="hero-desc">
@@ -57,7 +57,7 @@ export default memo(function Hero() {
           transition={{duration: 4, type: "spring"}}
 
           className="imgCont">
-            <img src={fimage} alt="img"></img>
+            <img src="https://i.pinimg.com/originals/46/01/51/4601511691330ce37c967d498adbd108.gif" alt="img"></img>
           </motion.div>
         </div>
       </div>
