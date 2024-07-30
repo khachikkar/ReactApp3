@@ -12,6 +12,7 @@ import Footer from "./Footer/Footer";
 import Images from "./Images";// Correct path to Images
 import Gift from "./Gift";
 import Paris from "./Paris";
+import TodoItem from "./Pages/Todo/TodoApp";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
           <Route path="/src/Images" element={<Images />} />
           <Route path="/src/Gift" element={<Gift />} />
           <Route path="/src/Paris" element={<Paris />} />
-
+          <Route path="/src/Pages/Todo/TodoApp" element={<TodoItem />}/>
           <Route path="/*" element={<ProductList />} />
         </Routes>
         <Footer />

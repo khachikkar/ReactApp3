@@ -3,7 +3,7 @@ import logo from "../../img/logo.svg";
 import "./Nav.css";
 import { IoClose } from "react-icons/io5";
 import { IoMenu } from "react-icons/io5";
-import { motion } from "framer-motion";
+
 
 import { useRef } from "react";
 
@@ -36,7 +36,12 @@ export default function Nav() {
           <Link to="/src/Paris">
             <span>Paris Olympics</span>
           </Link>
-          {/* <label>new</label> */}
+          
+        </li>
+        <li onClick={shownavbar}>
+          <Link to="/src/Pages/Todo/TodoApp">
+          <span>ToDo Mini App</span>
+          </Link>
         </li>
         <li>
           <button className="primaryButton">Get Start</button>

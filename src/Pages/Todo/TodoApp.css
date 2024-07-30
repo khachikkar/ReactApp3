@@ -1,0 +1,38 @@
+.t-app{
+   
+   color: white;
+   
+   /* display: flex; */
+
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.t-search{
+   width: 300px;
+}
+
+.t-list{
+    color: white;
+   
+}
+.t-but{
+    width: 100px;
+}
+
+.hj{
+    /* border: 1px solid yellow; */
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+   
+}
+
+.last{
+    /* border: 1px solid green; */
+    display:flex;
+   
+    justify-content: center;
+    
+}
