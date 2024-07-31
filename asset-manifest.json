@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/homee/static/css/main.a3ba19b2.css",
-    "main.js": "/homee/static/js/main.7eabd029.js",
+    "main.css": "/homee/static/css/main.3d77e208.css",
+    "main.js": "/homee/static/js/main.ccad8bd5.js",
     "static/js/453.fce17475.chunk.js": "/homee/static/js/453.fce17475.chunk.js",
     "static/media/fone.jpeg": "/homee/static/media/fone.b2ec1dbbf67284e91d4f.jpeg",
     "static/media/Paris2024-Variable.ttf": "/homee/static/media/Paris2024-Variable.03a40a690efcb22946bb.ttf",
     "static/media/logo.svg": "/homee/static/media/logo.3fff050f53280d8825a25b23537ba41d.svg",
     "index.html": "/homee/index.html",
-    "main.a3ba19b2.css.map": "/homee/static/css/main.a3ba19b2.css.map",
-    "main.7eabd029.js.map": "/homee/static/js/main.7eabd029.js.map",
+    "main.3d77e208.css.map": "/homee/static/css/main.3d77e208.css.map",
+    "main.ccad8bd5.js.map": "/homee/static/js/main.ccad8bd5.js.map",
     "453.fce17475.chunk.js.map": "/homee/static/js/453.fce17475.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3ba19b2.css",
-    "static/js/main.7eabd029.js"
+    "static/css/main.3d77e208.css",
+    "static/js/main.ccad8bd5.js"
   ]
 }
