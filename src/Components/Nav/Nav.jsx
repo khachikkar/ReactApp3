@@ -38,11 +38,21 @@ export default function Nav() {
           </Link>
           
         </li>
+
+
         <li onClick={shownavbar}>
           <Link to="/src/Pages/Todo/TodoApp">
           <span>ToDo Mini App</span>
           </Link>
         </li>
+
+        <li onClick={shownavbar}>
+          <Link to="/src/Pages/Calculator/Calculator">
+          <span>Calculator App</span>
+          </Link>
+        </li>
+
+        
         <li>
           <button className="primaryButton">Get Start</button>
         </li>

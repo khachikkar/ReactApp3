@@ -1,37 +1,32 @@
 import Stat from "../Stats/Stat";
 import "./Hero.css";
-import fimage from "/Users/khachkarapetyan/Desktop/skills/src/img/fone.jpeg";
 import React from "react";
 import { memo } from "react";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export default memo(function Hero() {
   return (
     <section className="hero">
       <div className="heroCont">
         <motion.div
-        initial={{y:"-6rem", opacity: "0"}}
-        animate={{y:"0", opacity: "1"}}
-        transition={{duration: 4, type: "spring"}}
-
-        
-        className="blurgrad" />
+          initial={{ y: "-6rem", opacity: "0" }}
+          animate={{ y: "0", opacity: "1" }}
+          transition={{ duration: 4, type: "spring" }}
+          className="blurgrad"
+        />
         {/* lefts side*/}
         <div className="hero-left">
           <div className="hero-title">
             <motion.h1
-            initial={{y:"2rem", opacity: "0"}}
-            animate={{y:"0", opacity: "1"}}
-            transition={{duration: 4, type: "spring"}}
-
+              initial={{ y: "2rem", opacity: "0" }}
+              animate={{ y: "0", opacity: "1" }}
+              transition={{ duration: 4, type: "spring" }}
             >
-              Find Your <br />
-              Dream here!
+              Find Your Dream here!
             </motion.h1>
           </div>
           <div className="hero-desc">
             <span>Just find your dream and enjoy</span>
-            <span>Configure and start uncover things</span>
           </div>
           <div className="search-bar">
             <input
@@ -51,13 +46,16 @@ export default memo(function Hero() {
 
         {/* Riught side*/}
         <div className="hero-right">
-          <motion.div 
-          initial={{x:"2rem", opacity: "0"}}
-          animate={{x:"0", opacity: "1"}}
-          transition={{duration: 4, type: "spring"}}
-
-          className="imgCont">
-            <img src="https://i.pinimg.com/originals/46/01/51/4601511691330ce37c967d498adbd108.gif" alt="img"></img>
+          <motion.div
+            initial={{ x: "2rem", opacity: "0" }}
+            animate={{ x: "0", opacity: "1" }}
+            transition={{ duration: 4, type: "spring" }}
+            className="imgCont"
+          >
+            <img
+              src="https://i.pinimg.com/originals/46/01/51/4601511691330ce37c967d498adbd108.gif"
+              alt="img"
+            ></img>
           </motion.div>
         </div>
       </div>

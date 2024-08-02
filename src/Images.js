@@ -52,7 +52,7 @@ function Images() {
 
       <div className="i-results">
         <span>{rres}</span>
-        {data.map((item) => {
+        {data && data.map((item) => {
           return <img className="i-img" key={item.id} src={item.urls.full} />;
         })}
       </div>

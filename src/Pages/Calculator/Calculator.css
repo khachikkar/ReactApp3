@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+section{
+    margin-top: 80px;
+    color: white;
+}
+
+  .Calc {
+    background-image: url("/src/img/calc.jpeg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+  }
+  
+  .numbers {
+    width: 200px;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+    display: flex;
+    gap: 25px;
+  }
+  
+  #Cc {
+    background-color: rgb(255, 0, 0);
+  }
+
+
+
+  .Calc span {
+    /* border: 1px solid rgb(51, 0, 255); */
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    background-color: black;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: crimson;
+    }
+  }
+  
+  #act{
+    border-radius: 0;
+}
+
+  .actions {
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 200px;
+  }
+  
+  .actions span {
+    background-color: var(--secondary);
+    cursor: pointer;
+  }
+  
+  .actions span:hover {
+    background-color: coral;
+  }
+  
+  .area {
+    width: 200px;
+    height: 50px;
+    border: 2px solid brown;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 24px;
+    border-radius: 20px 20px 0 0 ;
+  }
+  
+  .a-area {
+    background-color:rgba(0, 0, 0, 0.178);
+    backdrop-filter: blur(10px);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 20px;
+    border: 1px solid var(--secondary);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    color: white;
+  }
+  

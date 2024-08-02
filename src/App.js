@@ -13,7 +13,7 @@ import Images from "./Images";// Correct path to Images
 import Gift from "./Gift";
 import Paris from "./Paris";
 import TodoItem from "./Pages/Todo/TodoApp";
-
+import Calculator from "./Pages/Calculator/Calculator";
 function App() {
   return (
     
@@ -34,7 +34,7 @@ function App() {
           <Route path="/src/Gift" element={<Gift />} />
           <Route path="/src/Paris" element={<Paris />} />
           <Route path="/src/Pages/Todo/TodoApp" element={<TodoItem />}/>
-          <Route path="/*" element={<ProductList />} />
+          <Route path="/src/Pages/Calculator/Calculator" element={<Calculator />}/>
         </Routes>
         <Footer />
       </div>

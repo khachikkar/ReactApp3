@@ -88,24 +88,26 @@ const swipersettings = {
         <div className="a">
           <h1>Our Homes</h1>
         </div>
-    <Routes>
-
-    <Route
-    path="/"
-    element={
+  
         <Swiper className="sw" {...swipersettings}>
         <Swiperbutton />
           {products.map((item,) => (
             <SwiperSlide key={item.id} className="swiper-slide">
-              <ProductItem key={item.id} data={item} onClick={() => handleProductClick(item.id)} />
+              <ProductItem  key={item.id} data={item} onClick={() => handleProductClick(item.id)} />
             </SwiperSlide>
           ))}
         </Swiper>
-    } />
 
+<Routes>
 <Route path="/product/:id" element={<ProductDetail products={products} />} />
 
-    </Routes>
+</Routes>
+  
+    
+        
+     
+
+
       </section>
     );
   })
